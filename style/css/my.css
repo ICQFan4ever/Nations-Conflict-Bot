@@ -1,0 +1,87 @@
+@font-face
+	{
+		font-family: "Ubuntu";
+		src: url('/style/fonts/eot/Ubuntu.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Mono";
+		src: url('/style/fonts/eot/Ubuntu_Mono.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Mono.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Mono.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Mono.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Bold";
+		src: url('/style/fonts/eot/Ubuntu_Bold.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Bold.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Bold.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Bold.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Light";
+		src: url('/style/fonts/eot/Ubuntu_Light.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Light.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Light.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Light.svg') format('svg');
+	}
+
+.left_description
+	{
+		-webkit-border-image: none;
+		background-color: rgb(245, 245, 245);
+		border-bottom-color: rgb(229, 229, 229);
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-left-color: rgb(229, 229, 229);
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-color: rgb(229, 229, 229);
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-top-color: rgb(229, 229, 229);
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-radius: 5px;
+		color: rgb(0, 85, 128);
+		cursor: auto;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: -1px;
+		margin-left: 0px;
+		margin-right: 10px;
+		margin-top: 10px;
+		outline-color: rgb(0, 85, 128);
+		outline-style: none;
+		outline-width: 0px;
+		padding-bottom: 8px;
+		padding-left: 14px;
+		padding-right: 14px;
+		padding-top: 8px;
+		text-align: left;
+		text-decoration: none;
+		text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px;
+		width: 25%;
+		display: inline-block;
+		float: left;
+	}
+
+.page_text
+	{
+		width: 65%;
+		margin: 0px;
+		display: inline-block;
+	}

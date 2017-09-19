@@ -1,0 +1,180 @@
+/* Share */
+
+input, select, button
+	{
+		max-width: 300px;
+	}
+
+.trans
+	{
+		opacity: 0.3;
+		-moz-transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+
+.trans:hover
+	{
+		opacity: 1;
+	}
+
+.sps-small
+	{
+		padding-bottom:1px;
+		padding-right:10px;
+		
+	}
+
+.sps
+	{
+		display:inline-block;
+		position:relative;
+		z-index:1;
+		padding:5px;
+		background:transparent;
+		font-size:0;
+		line-height:0;
+		text-align:left;
+		-webkit-border-radius:6px;
+		-moz-border-radius:6px;
+		border-radius:6px;
+		
+	}
+
+.sps a
+	{
+		display:inline-block;
+	}
+
+.sps-small a
+	{
+		width:20px;
+		height:20px;
+		margin-right:6px;
+		background:url('/style/icons/share/share.png') 0 0 transparent no-repeat;
+	}
+
+.sps-small a:last-child
+	{
+		margin-right:0;
+	}
+
+#sharing_buttons .sps-small .sps-vkontakte
+	{
+		background-position:-80px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-vkontakte:hover
+	{
+		background-position:-80px 0;
+	}
+
+#sharing_buttons .sps-small .sps-odnoklassniki
+	{
+		background-position:-60px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-odnoklassniki:hover
+	{
+		background-position:-60px 0;
+	}
+
+#sharing_buttons .sps-small .sps-facebook
+	{
+		background-position:0 -20px;
+	}
+
+#sharing_buttons .sps-small .sps-facebook:hover
+	{
+		background-position:0 0;
+	}
+
+#sharing_buttons .sps-small .sps-twitter
+	{
+		background-position:-20px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-twitter:hover
+	{
+		background-position:-20px 0;
+	}
+
+#sharing_buttons .sps-small .sps-moimir
+	{
+		background-position:-140px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-moimir:hover
+	{
+		background-position:-140px 0;
+	}
+
+#sharing_buttons .sps-small .sps-livejournal
+	{
+		background-position:-160px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-livejournal:hover
+	{
+		background-position:-160px 0;
+	}
+
+#sharing_buttons .sps-small .sps-google
+	{
+		background-position:-120px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-google:hover
+	{
+		background-position:-120px 0;
+	}
+
+#sharing_buttons .sps-small .sps-email
+	{
+		background-position:-440px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-email:hover
+	{
+		background-position:-440px 0;
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu";
+		src: url('/style/fonts/eot/Ubuntu.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Mono";
+		src: url('/style/fonts/eot/Ubuntu_Mono.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Mono.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Mono.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Mono.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Bold";
+		src: url('/style/fonts/eot/Ubuntu_Bold.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Bold.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Bold.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Bold.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Light";
+		src: url('/style/fonts/eot/Ubuntu_Light.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Light.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Light.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Light.svg') format('svg');
+	}

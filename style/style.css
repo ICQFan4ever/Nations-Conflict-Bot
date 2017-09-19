@@ -1,0 +1,325 @@
+/*
+Этот стиль можно невозбранно использовать в любых бескорыстных целях, именно поэтому он написан максимально понятно :)
+А еще можно скачать этот архивчик: http://4nmv.ru/style/style.zip
+Там лежит всё, связанное со стилем, в том числе вся графика и шрифты
+На здоровье :)
+*/
+
+@font-face
+	{
+		font-family: Ubuntu;
+		src: url(/style/fonts/ubuntu.ttf);
+	}
+	
+@font-face
+	{
+		font-family: "Ubuntu Bold";
+		src: url(/style/fonts/Ubuntu_Bold.ttf);
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Italic";
+		src: url(/style/fonts/Ubuntu_Italic.ttf);
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Bold Italic";
+		src: url(/style/fonts/Ubuntu_Bold_Italic.ttf);
+	}
+
+body
+	{
+		min-width: 1024px;
+		font-family: Ubuntu;
+		font-size: 14px;
+		margin: 0px;
+		padding: 0xp;
+		background: #f3f3f3;
+		color: #333333;
+	}
+
+a:link, a:active, a:visited
+	{
+		color: #333333;
+		font-family: Ubuntu;
+		text-decoration: none;
+	}
+
+a:hover
+	{
+		border-bottom: 1px solid #333333;
+	}
+
+a.focus
+	{
+		font-family: "Ubuntu Bold";
+		color: #dd4814;
+	}
+
+a.big
+	{
+		font-size: 30px;
+		color: #dd4814;
+	}
+
+a.big:hover
+	{
+		text-decoration: none;
+	}
+
+div.content
+	{
+		background: #ffffff;
+		margin: auto;
+		width: 68%;
+		padding: 40px 10px 40px 40px;
+		box-shadow: 0px 0px 3px #c9c9c9;
+	}
+
+div.big_block_dns
+	{
+		width: 80%;
+		padding: 20px 15px 20px 15px;
+		margin: auto;
+		margin-top: 25px;
+		margin-bottom: 15px;
+		font-size: 16px;
+		font-family: "Ubuntu Bold";
+		background: #eaeaea;
+		border-radius: 4px;
+		box-shadow: 0px 2px 2px 0px #c2c2c2;
+	}
+
+div.foot
+	{
+		width: 71%;
+		margin: auto;
+		padding: 3px;
+	}
+
+div.delete
+	{
+		background: #c84f52;
+		font-size: 14px;
+		border-radius: 6px;
+		padding: 5px;
+		color: #eeeeee;
+		margin: 3px;
+		display: inline-block;
+	}
+
+div.edit
+	{
+		background: #a5cd60;
+		font-size: 14px;
+		border-radius: 6px;
+		color: #eeeeee;
+		padding: 5px;
+		margin: 3px;
+		display: inline-block;
+	}
+
+div.top
+	{
+		background: #2b011e;
+		text-align: center;
+		color: #ffffff;
+		margin: 0px 0px 25px 0px;
+		padding: 0px;
+		border: 1px solid #b9b9b9;
+		box-shadow: 3px #c9c9c9;
+		border-radius: 4px;
+	}
+
+div.top_link
+	{
+		border-left: 1px solid rgb(92.407%,35.843%,16.102%);
+		margin: 0px;
+		padding: 15px 8px 15px 8px;
+		color: #ffffff;
+		display: inline-block;
+		font-family: Ubuntu;
+		font-size: 14px;
+	}
+
+div.last_link
+	{
+		border-right: 1px solid rgb(92.407%,35.843%,16.102%);
+	}
+
+div.top_link:hover
+	{
+		background: #420432;
+	}
+
+span.big_title
+	{
+		font-size: 40px;
+		font-weight: light;
+		color: #333333;
+	}
+
+
+div.orange_button
+	{
+		color: #ffffff;
+		background: #c03f11;
+		padding: 12px;
+		margin: 0px;
+		border-radius: 4px;
+	}
+
+div.orange_button:hover
+	{
+		background: #dd4814;
+	}
+
+input[type=text], input[type=password], input[type=email], textarea, select, option
+	{
+		font-size: 16px;
+		font-family: "Ubuntu Italic";
+		padding: 7px;
+		border-radius: 3px;
+		border: 1px #c3c3c3 solid;
+		margin: 3px 0px 3px 0px;
+	}
+
+input[type=submit]
+	{
+		margin: 10px 0px 10px 0px;
+		font-size: 17px;
+		padding: 7px;
+		color: #ffffff;
+		background: #c03f11;
+		border-radius: 4px;
+		border: none;
+		font-family: "Ubuntu";
+	}
+
+input[type=submit]:hover
+	{
+		background: #dd4814;
+	}
+
+.code
+	{
+		border-radius: 4px;
+		background: url('/?r=captcha');
+		height: 80px;
+		width: 200px;
+		padding: 0px;
+		margin: 20px 0px 7px 0px;
+	}
+
+a.block_link
+	{
+		border: 1px solid #c9c9c9;
+		margin: 0px;
+		padding: 6px;
+		font-size: 24px;
+	}
+
+/* Share */
+
+div.sharing
+	{
+		border: none;
+		padding: 7px;
+		margin: 4px;
+		font-size: 12px;
+		display: inline-block;
+	}
+
+div.share
+	{
+		text-decoration: none;
+		width: 20px;
+		height: 20px;
+		margin: 2px;
+		display: inline-block;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+div.share_facebook
+	{
+		background: url('/style/icons/share/facebook_gray.png');
+	}
+
+div.share_facebook:hover
+	{
+		background: url('/style/icons/share/facebook_hover.png');
+	}
+
+div.share_vkontakte
+	{
+		background: url('/style/icons/share/vkontakte_gray.png');
+	}
+
+div.share_vkontakte:hover
+	{
+		background: url('/style/icons/share/vkontakte_hover.png');
+	}
+
+div.share_odnoklassniki
+	{
+		background: url('/style/icons/share/odnoklassniki_gray.png');
+	}
+
+div.share_odnoklassniki:hover
+	{
+		background: url('/style/icons/share/odnoklassniki_hover.png');
+	}
+
+div.share_google
+	{
+		background: url('/style/icons/share/google_gray.png');
+	}
+
+div.share_google:hover
+	{
+		background: url('/style/icons/share/google_hover.png');
+	}
+
+div.share_mail
+	{
+		background: url('/style/icons/share/mail_gray.png');
+	}
+
+div.share_mail:hover
+	{
+		background: url('/style/icons/share/mail_hover.png');
+	}
+
+div.share_lj
+	{
+		background: url('/style/icons/share/lj_gray.png');
+	}
+
+div.share_lj:hover
+	{
+		background: url('/style/icons/share/lj_hover.png');
+	}
+
+div.share_twitter
+	{
+		background: url('/style/icons/share/twitter_gray.png');
+	}
+
+div.share_twitter:hover
+	{
+		background: url('/style/icons/share/twitter_hover.png');
+	}
+
+div.share_sendmail
+	{
+		background: url('/style/icons/share/sendmail_gray.png');
+	}
+
+div.share_sendmail:hover
+	{
+		background: url('/style/icons/share/sendmail_hover.png');
+	}

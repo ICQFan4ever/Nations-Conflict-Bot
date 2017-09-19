@@ -1,0 +1,490 @@
+/*
+Этот стиль можно невозбранно использовать в любых бескорыстных целях, именно поэтому он написан максимально понятно :)
+А еще можно скачать этот архивчик: http://4nmv.ru/style/style.zip
+Там лежит всё, связанное со стилем, в том числе вся графика и шрифты
+На здоровье :)
+*/
+
+@font-face
+	{
+		font-family: "Ubuntu";
+		src: url('/style/fonts/eot/Ubuntu.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Mono";
+		src: url('/style/fonts/eot/Ubuntu_Mono.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Mono.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Mono.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Mono.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Bold";
+		src: url('/style/fonts/eot/Ubuntu_Bold.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Bold.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Bold.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Bold.svg') format('svg');
+	}
+
+@font-face
+	{
+		font-family: "Ubuntu Light";
+		src: url('/style/fonts/eot/Ubuntu_Light.eot');
+		src: local('Ubuntu'),
+		url('/style/fonts/woff/Ubuntu_Light.woff') format('woff'),
+		url('/style/fonts/ttf/Ubuntu_Light.ttf') format('truetype'),
+		url('/style/fonts/svg/Ubuntu_Light.svg') format('svg');
+	}
+
+body
+	{
+		min-width: 1024px;
+		font-family: "Ubuntu Light";
+		font-size: 14px;
+		margin: 0px;
+		padding: 0xp;
+		background: #f3f3f3;
+		color: #333333;
+	}
+
+a:link, a:active, a:visited
+	{
+		color: #333333;
+		font-family: Ubuntu;
+		text-decoration: none;
+	}
+
+a.focus
+	{
+		font-family: "Ubuntu Bold";
+		color: #dd4814;
+	}
+
+a.big
+	{
+		font-size: 30px;
+		color: #dd4814;
+	}
+
+a.big:hover
+	{
+		text-decoration: none;
+		border: none;
+	}
+
+a.medium
+	{
+		font-size: 24px;
+		color: #3a87ad;
+	}
+
+a.medium:hover
+	{
+		text-decoration: none;
+		border-bottom: 1px dotted #3a87ad;
+		-moz-transition: all 0.6s ease;
+		-webkit-transition: all 0.6s ease;
+		transition: all 0.6s ease;
+	}
+
+div.content
+	{
+		background: #ffffff;
+		margin: auto;
+		width: 68%;
+		padding: 40px 5px 40px 40px;
+		box-shadow: 0px 0px 3px #c9c9c9;
+	}
+
+div.big_block_dns
+	{
+		width: 80%;
+		padding: 20px 15px 20px 15px;
+		margin: auto;
+		margin-top: 25px;
+		margin-bottom: 15px;
+		font-size: 16px;
+		font-family: "Ubuntu Bold";
+		background: #eaeaea;
+		border-radius: 4px;
+		box-shadow: 0px 2px 2px 0px #c2c2c2;
+	}
+
+div.big_block_inline
+	{
+		width: 30%;
+		padding: 20px 15px 20px 15px;
+		margin: 40px;
+		font-size: 36px;
+		font-family: "Ubuntu Bold";
+		background: #eaeaea;
+		border-radius: 4px;
+		box-shadow: 0px 2px 2px 0px #c2c2c2;
+		display: inline-block;
+	}
+
+div.big_block_inline:active
+	{
+		box-shadow: 0px 0px 0px 2px #c2c2c2;
+	}
+
+div.pseudo
+	{
+		margin: auto;
+		padding: 5px;
+		text-align: center;
+		font-size: 20px;
+	}
+
+div.foot
+	{
+		width: 71%;
+		margin: auto;
+		padding: 3px;
+	}
+
+div.delete
+	{
+		background: #c84f52;
+		font-size: 14px;
+		border-radius: 6px;
+		padding: 5px;
+		color: #eeeeee;
+		margin: 3px;
+		display: inline-block;
+		font-family: "Ubuntu Bold";
+	}
+
+div.edit
+	{
+		background: #a5cd60;
+		font-size: 14px;
+		border-radius: 6px;
+		color: #eeeeee;
+		padding: 5px;
+		margin: 3px;
+		display: inline-block;
+		font-family: "Ubuntu Bold";
+	}
+
+div.delete:hover, div.edit:hover
+	{
+		opacity: 0.8;
+		text-decoration: none;
+		-moz-transition: all 0.6s ease;
+		-webkit-transition: all 0.6s ease;
+		transition: all 0.6s ease;
+	}
+
+div.delete a:hover, div.edit a:hover
+	{
+		text-decoration: none;
+	}
+
+
+div.top
+	{
+		background: #420432;
+		text-align: center;
+		color: #ffffff;
+		margin: 0px 0px 25px 0px;
+		padding: 0px;
+		border: 1px solid #b9b9b9;
+		box-shadow: 3px #c9c9c9;
+		border-radius: 4px;
+	}
+
+div.top_link
+	{
+		border-left: 1px solid #420432;
+		margin: 0px;
+		padding: 15px 8px 15px 8px;
+		color: #eaeaea;
+		display: inline-block;
+		font-size: 14px;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+div.last_link
+	{
+		border-right: 1px solid #420432;
+	}
+
+div.top_link:hover
+	{
+		background: #2b011e;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+span.big_title
+	{
+		font-size: 40px;
+		font-weight: light;
+		color: #333333;
+	}
+
+span.big
+	{
+		font-size: 30px;
+		font-weight: light;
+		color: #333333;
+	}
+
+div.orange_button
+	{
+		color: #ffffff;
+		background: #c03f11;
+		padding: 12px;
+		margin: 0px;
+		border-radius: 4px;
+	}
+
+div.orange_button:hover
+	{
+		background: #dd4814;
+	}
+
+input[type=text], input[type=password], input[type=email], textarea, select, option
+	{
+		font-size: 16px;
+		font-family: "Ubuntu Mono";
+		padding: 7px;
+		border-radius: 3px;
+		border: 1px #c3c3c3 solid;
+		margin: 3px 0px 3px 0px;
+	}
+
+input[type=submit]
+	{
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border: 1px solid #006dcc;
+    -webkit-border-radius: 4px 4px 4px 4px;
+     -moz-border-radius: 4px 4px 4px 4px;
+          border-radius: 4px 4px 4px 4px;
+		  padding: 4px;
+		  margin: 8px 0px 5px 0px;
+}
+
+input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active
+{
+background: #006dcc;
+}
+
+select
+	{
+		height: 35px;
+	}
+
+/* Navi */
+
+div.page_navi
+	{
+		font-size: 20px;
+		margin: 15px;
+	}
+
+div.navi_page
+	{
+		padding: 4px 7px 4px 7px;
+		background: #dd4814;
+		display: inline-block;
+		margin: 0px 4px 0px 4px;
+		color: #ffffff;
+		border-radius: 4px;
+	}
+
+div.navi_page:hover
+	{
+		opacity: 0.8;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+div.navi_page_chosen
+	{
+		padding: 2px 5px 2px 5px;
+		border: 2px solid #dd4814;
+		background: #ffffff;
+		display: inline-block;
+		margin: 0px 4px 0px 4px;
+		color: #dd4814;
+		border-radius: 4px;
+	}
+
+div.block_link
+	{
+		color: #006699;
+		margin: 0px;
+		padding: 6px;
+		font-size: 24px;
+	}
+
+h2
+	{
+		font-family: Ubuntu Mono;
+		margin: 6px;
+		font-weight: lighter;
+		font-size: 24px;
+		color: #999999; 
+	}
+
+/* Share */
+
+.trans
+	{
+		opacity: 0.3;
+		-moz-transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+
+.trans:hover
+	{
+		opacity: 1;
+	}
+
+.sps-small
+	{
+		padding-bottom:1px;
+		padding-right:10px;
+		
+	}
+
+.sps
+	{
+		display:inline-block;
+		position:relative;
+		z-index:1;
+		padding:5px;
+		background:transparent;
+		font-size:0;
+		line-height:0;
+		text-align:left;
+		-webkit-border-radius:6px;
+		-moz-border-radius:6px;
+		border-radius:6px;
+		
+	}
+
+.sps a
+	{
+		display:inline-block;
+	}
+
+.sps-small a
+	{
+		width:20px;
+		height:20px;
+		margin-right:6px;
+		background:url('/style/icons/share/share.png') 0 0 transparent no-repeat;
+	}
+
+.sps-small a:last-child
+	{
+		margin-right:0;
+	}
+
+#sharing_buttons .sps-small .sps-vkontakte
+	{
+		background-position:-80px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-vkontakte:hover
+	{
+		background-position:-80px 0;
+	}
+
+#sharing_buttons .sps-small .sps-odnoklassniki
+	{
+		background-position:-60px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-odnoklassniki:hover
+	{
+		background-position:-60px 0;
+	}
+
+#sharing_buttons .sps-small .sps-facebook
+	{
+		background-position:0 -20px;
+	}
+
+#sharing_buttons .sps-small .sps-facebook:hover
+	{
+		background-position:0 0;
+	}
+
+#sharing_buttons .sps-small .sps-twitter
+	{
+		background-position:-20px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-twitter:hover
+	{
+		background-position:-20px 0;
+	}
+
+#sharing_buttons .sps-small .sps-moimir
+	{
+		background-position:-140px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-moimir:hover
+	{
+		background-position:-140px 0;
+	}
+
+#sharing_buttons .sps-small .sps-livejournal
+	{
+		background-position:-160px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-livejournal:hover
+	{
+		background-position:-160px 0;
+	}
+
+#sharing_buttons .sps-small .sps-google
+	{
+		background-position:-120px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-google:hover
+	{
+		background-position:-120px 0;
+	}
+
+#sharing_buttons .sps-small .sps-email
+	{
+		background-position:-440px -20px;
+	}
+
+#sharing_buttons .sps-small .sps-email:hover
+	{
+		background-position:-440px 0;
+	}
